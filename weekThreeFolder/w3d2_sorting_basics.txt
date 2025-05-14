@@ -1,0 +1,8 @@
+🔢 What is Sorting?
+Sorting means arranging data in a particular order—usually ascending (low to high) or descending (high to low).
+📚 Why Sorting Matters
+Helps organize data (like names alphabetically or numbers from smallest to largest).
+Makes searching faster (especially with binary search).
+Used in real-world tasks like ranking scores, filtering items, or organizing files.
+
+

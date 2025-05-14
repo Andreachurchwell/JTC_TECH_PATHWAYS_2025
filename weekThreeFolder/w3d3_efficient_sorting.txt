@@ -1,0 +1,93 @@
+Key Terms
+Divide and Conquer: A technique that recursively breaks a problem into subproblems, solves them, and combines the results
+Merge Sort: A stable, efficient sorting algorithm that uses the divide-and-conquer approach
+Quick Sort: An efficient, in-place sorting algorithm that also uses the divide-and-conquer approach but with a different strategy
+Pivot: A selected element in Quick Sort used to partition the array
+Partition: The process of dividing elements around the pivot in Quick Sort
+Stable Sort: A sorting algorithm that preserves the relative order of equal elements
+In-place Sorting: Algorithms that don't require significant additional memory beyond the input
+Time Complexity: A measure of how an algorithm's runtime increases as the input size grows
+Space Complexity: A measure of how an algorithm's memory usage increases as the input size grows
+Recursion: When a function calls itself to break a problem into subproblems
+
+
+
+
+ Divide and Conquer (Big Idea)
+This is a strategy used in algorithms where:
+Divide the problem into smaller subproblems.
+Conquer each subproblem (solve it — often recursively).
+Combine the solutions to solve the original problem.
+Both Quick Sort and Merge Sort are classic examples of this.
+
+
+⚡ Quick Sort
+How it works:
+
+Choose a pivot element.
+
+Partition the array: elements less than pivot go left, greater go right.
+
+Recursively quicksort the left and right sides.
+
+Time Complexity:
+Best/Average: O(n log n)
+Worst (bad pivot): O(n²)
+In-place: Yes (no extra arrays).
+Stable: No.
+
+
+Example:
+
+
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[0]
+    left = [x for x in arr[1:] if x <= pivot]
+    right = [x for x in arr[1:] if x > pivot]
+    return quicksort(left) + [pivot] + quicksort(right)
+
+
+
+
+
+
+🧩 Merge Sort
+How it works:
+Divide the array in half.
+Recursively sort each half.
+Merge the sorted halves into a single sorted list.
+
+Time Complexity:
+Always O(n log n) (no worst-case degradation).
+
+In-place: No (needs extra memory).
+Stable: Yes.
+
+Example:
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+def merge(left, right):
+    result = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    result += left[i:]
+    result += right[j:]
+    return result
+
+
+
+

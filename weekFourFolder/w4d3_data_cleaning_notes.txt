@@ -1,0 +1,108 @@
+Key Terms
+Data Cleaning: The process of identifying and correcting errors, inconsistencies, and inaccuracies in datasets
+Missing Values: Data points that are absent in a dataset, often represented as NaN, None, or null
+Imputation: The process of replacing missing values with substituted values
+Outliers: Data points that significantly differ from other observations in a dataset
+Data Standardization: The process of transforming data into a common format or scale
+Data Validation: The process of ensuring data meets specific quality criteria
+Forward Fill: A method to propagate the last valid observation forward
+Backward Fill: A method to use the next valid observation to fill gaps
+Interpolation: Estimating unknown values based on surrounding known values
+Data Type Conversion: Changing the data type of a column to ensure consistency
+
+🧼 Data Cleaning with Pandas
+✅ Step 1: Inspect the Data
+
+df.head()         # Preview the first few rows
+df.info()         # Data types & missing values
+df.describe()     # Summary statistics
+df.columns        # List of column names
+df.shape          # Rows x columns
+🕳️ Step 2: Handle Missing Data
+🧠 Detect:
+
+df.isna()         # True where missing
+df.isna().sum()   # Count of missing per column
+🧹 Drop:
+
+df.dropna()               # Drop rows with any missing values
+df.dropna(axis=1)         # Drop columns with missing values
+df.dropna(thresh=2)       # Keep rows with at least 2 non-null values
+🩹 Fill:
+
+df.fillna(0)                        # Fill with 0
+df['col'].fillna(df['col'].mean()) # Fill with column mean
+df.fillna(method='ffill')          # Forward fill
+df.fillna(method='bfill')          # Backward fill
+🧹 Step 3: Fix Data Types
+
+df['col'] = df['col'].astype(int)
+df['date'] = pd.to_datetime(df['date'])
+🪓 Step 4: Remove Duplicates
+
+df.drop_duplicates()
+df.duplicated().sum()   # Count duplicates
+🔤 Step 5: Clean Text Data
+
+df['name'] = df['name'].str.strip()     # Remove spaces
+df['name'] = df['name'].str.lower()     # Lowercase
+df['name'] = df['name'].str.replace('-', ' ')  # Replace chars
+🧮 Step 6: Apply Functions
+
+df['new'] = df['col'].apply(lambda x: x * 2)
+🛠️ Step 7: Rename or Reindex
+
+df.rename(columns={'old': 'new'})
+df.reset_index(drop=True)
+
+
+
+
+
+🧽 6 Steps to Clean Many Datasets (Data Cleaning Checklist)
+
+
+1️⃣ Remove Duplicate Values
+Drop exact duplicate rows:
+
+df.drop_duplicates(inplace=True)
+If a column (like customer_id) should be unique:
+
+df = df.drop_duplicates(subset='customer_id')
+2️⃣ Look for Spelling Errors
+Use .value_counts() to spot typos:
+
+df['name'].value_counts()
+Fix misspelled categories:
+
+df['city'] = df['city'].replace({'New Yrok': 'New York'})
+
+
+3️⃣ Highlight Errors
+Use .loc[] to find or tag unusual values:
+
+df.loc[df['age'] < 0]         # Negative age?
+df['error_flag'] = df['value'].isna() | (df['value'] < 0)
+4️⃣ Deal with Null Values
+Check how many are missing:
+
+
+df.isna().sum()
+Drop or fill:
+df.dropna()                  # Drop rows with nulls
+df.fillna('Unknown')         # Fill with placeholder
+df['score'].fillna(df['score'].mean())  # Fill with mean
+
+
+
+5️⃣ Fix Data Types
+Convert to the right format:
+
+df['amount'] = pd.to_numeric(df['amount'], errors='coerce')
+df['date'] = pd.to_datetime(df['date'], errors='coerce')
+
+6️⃣ Check for Data Replication
+Look for repeated data entries, not just duplicates.
+Example: same name and email used multiple times with slight changes.
+df[df.duplicated(subset=['name', 'email'], keep=False)]
+

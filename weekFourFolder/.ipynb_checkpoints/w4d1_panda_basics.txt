@@ -1,0 +1,151 @@
+📌 What is Pandas?
+A Python library used for data manipulation and analysis.
+
+Built on top of NumPy.
+
+Two main data structures:
+
+Series: 1-dimensional labeled array.
+
+DataFrame: 2-dimensional labeled table (like a spreadsheet).
+
+🧱 Importing Pandas
+
+import pandas as pd
+📋 Creating a Series
+
+s = pd.Series([10, 20, 30])
+print(s)
+Index starts from 0 by default.
+
+You can customize the index:
+
+s = pd.Series([10, 20, 30], index=['a', 'b', 'c'])
+📊 Creating a DataFrame
+
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 30, 35]
+}
+df = pd.DataFrame(data)
+print(df)
+📚 Reading Data
+
+df = pd.read_csv('filename.csv')
+You can also read Excel, JSON, and other formats.
+
+🔍 Exploring Data
+
+df.head()       # First 5 rows
+df.tail()       # Last 5 rows
+df.shape        # (rows, columns)
+df.columns      # Column names
+df.info()       # Summary of the DataFrame
+df.describe()   # Stats summary of numerical data
+🎯 Selecting Data
+
+df['Name']          # Select one column
+df[['Name', 'Age']] # Select multiple columns
+df.iloc[0]          # Select by row index
+df.loc[0]           # Select by label (if labels are set)
+🧹 Filtering Data
+
+df[df['Age'] > 30]
+✏️ Adding & Modifying Columns
+
+df['Country'] = ['USA', 'Canada', 'UK']
+❌ Removing Columns or Rows
+
+df.drop('Age', axis=1, inplace=True)   # Drop column
+df.drop(0, axis=0, inplace=True)       # Drop row
+💾 Saving Data
+
+df.to_csv('new_file.csv', index=False)
+
+
+
+
+🐼 Pandas Overview
+Pandas is a powerful Python library used for data manipulation and analysis.
+
+It's built on top of NumPy and makes handling tabular data easy.
+
+📊 Core Data Structures
+DataFrame:
+
+Think of it like a table (rows & columns).
+
+Each column can have a different data type (int, float, string, etc.).
+
+You can label both the rows (index) and columns.
+
+Series:
+
+A single column from a DataFrame or a one-dimensional array with labels.
+
+Like a column with a name for each row (index).
+
+🏷️ Index
+Index:
+
+Labels for rows in a Series or DataFrame.
+
+Helps you quickly access and organize data.
+
+Can be numbers, dates, or strings.
+
+🎯 Data Selection
+Selecting columns: df['column_name']
+
+Selecting rows by label: df.loc['row_label']
+
+Selecting rows by position: df.iloc[0]
+
+✅ Boolean Indexing
+Filtering data based on a condition:
+
+
+df[df['age'] > 30]
+Returns only rows where the condition is True.
+
+📦 Data Types
+Pandas supports multiple data types:
+
+int64 for integers
+
+float64 for decimal numbers
+
+object for text (strings)
+
+datetime64 for dates and times
+
+❓ NaN (Not a Number)
+Used to represent missing data in pandas.
+
+Common functions to handle it:
+
+df.isna() or df.isnull() to check for NaNs
+
+df.fillna(value) to replace them
+
+df.dropna() to remove rows with NaNs
+
+⚡ Vectorization
+Means doing math/operations on whole arrays/columns at once:
+
+df['salary'] * 2
+Faster and cleaner than using loops.
+
+🔄 Broadcasting
+When pandas automatically matches values of different shapes to perform operations.
+
+Example: Adding a single value to a whole column:
+
+
+df['score'] + 5
+📉 Aggregation
+Aggregation functions combine values:
+
+sum(), mean(), min(), max(), count(), etc.
+
+Use .groupby() with aggregation to summarize data by category.

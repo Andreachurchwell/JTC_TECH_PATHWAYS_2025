@@ -1,0 +1,117 @@
+📤 Data Operations in Pandas
+🧹 Data Cleaning
+Handling Missing Data (NaN):
+
+Check for NaN:
+
+
+df.isna()  
+df.isnull()  # Both give boolean DataFrame of NaN status
+Drop rows with NaN:
+
+
+df.dropna()  
+Fill NaN with a value:
+
+df.fillna(0)  # Replaces NaN with 0
+Remove Duplicates:
+
+
+df.drop_duplicates()
+🔄 Data Transformation
+Renaming Columns:
+
+
+df.rename(columns={'old_name': 'new_name'})
+Changing Data Types:
+
+
+df['column_name'] = df['column_name'].astype(int)
+Apply Functions to Columns:
+
+You can use the .apply() function to apply a custom function:
+
+
+df['new_column'] = df['old_column'].apply(lambda x: x * 2)
+Lambda Functions:
+
+Short, anonymous functions to modify data on the fly:
+
+df['new_column'] = df['old_column'].apply(lambda x: x.strip())  # remove spaces
+🧮 Mathematical Operations
+Basic Arithmetic on Columns:
+
+
+df['total'] = df['price'] * df['quantity']
+Performing Operations Across Columns:
+
+
+df['discounted_price'] = df['price'] * 0.9
+Sum, Mean, and Aggregation:
+
+Sum values in a column:
+
+
+df['column_name'].sum()
+Mean value:
+
+df['column_name'].mean()
+🏷️ Data Filtering & Selection
+Filter with Conditions:
+
+df[df['age'] > 30]  # Rows where age > 30
+Multiple Conditions (AND, OR):
+
+
+df[(df['age'] > 30) & (df['income'] > 50000)]  # AND condition
+df[(df['age'] > 30) | (df['income'] > 50000)]  # OR condition
+🗂️ Sorting and Ordering
+Sort by a Column:
+
+
+df.sort_values(by='column_name', ascending=False)  # Sort in descending order
+Sort by Multiple Columns:
+
+
+df.sort_values(by=['column1', 'column2'], ascending=[True, False])
+🧑‍🤝‍🧑 Grouping Data
+Groupby and Aggregate:
+
+
+df.groupby('category')['value_column'].sum()  # Sum of values by category
+You can use other aggregation functions like .mean(), .min(), .max().
+
+🔄 Merging and Joining DataFrames
+Merge Two DataFrames (like SQL join):
+
+
+pd.merge(df1, df2, on='common_column', how='inner')  # inner join by default
+Types of joins: 'left', 'right', 'outer', 'inner'
+
+🧮 Column Operations
+Create New Columns:
+
+
+df['new_column'] = df['col1'] + df['col2']  # Adding columns together
+Drop Columns:
+
+
+df.drop('column_name', axis=1, inplace=True)
+Select Specific Columns:
+
+
+df[['col1', 'col2']]  # Selects just two columns
+🏃‍♂️ Vectorized Operations
+Operations on the Entire Column:
+
+
+df['new_column'] = df['column1'] * 2  # Multiplies all values in 'column1' by 2
+🕵️‍♂️ Exploratory Data Analysis (EDA)
+Basic Statistics:
+
+
+df.describe()  # Provides summary statistics like mean, std, min, max
+Check for Missing Values:
+
+
+df.isnull().sum()  # Shows the count of NaNs in each column

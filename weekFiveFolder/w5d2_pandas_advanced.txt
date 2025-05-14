@@ -1,0 +1,80 @@
+Key Terms
+GroupBy: A pandas operation that splits data into groups based on some criteria
+Aggregation: The process of computing summary statistics of data
+Pivot Table: A data summarization tool that helps reorganize and summarize selected data
+Multi-level Index: A hierarchical indexing scheme allowing multiple index levels
+Split-Apply-Combine: A paradigm for data manipulation where data is split into groups, functions are applied to each group, and results are combined
+Categorical Data: Data that can be divided into groups or categories
+Cross-tabulation: A method to count frequencies of variables appearing in different categories
+Rolling Window: A method to compute statistics over a sliding window of data
+Resampling: Converting time series data from one frequency to another
+Hierarchical Indexing: An advanced indexing scheme allowing multiple levels of indices
+
+💡 WHAT IS groupby IN PANDAS?
+Think of .groupby() like organizing a bunch of stuff into labeled bins — so you can easily do some math or summarizing for each bin.
+
+You're grouping your data based on some column(s), then doing something to each group (like average, sum, count, etc.).
+
+🛠️ Most Common Pattern You’ll Use:
+
+df.groupby('column_name')['other_column'].mean()
+groupby('column_name') – groups the data by values in this column.
+
+['other_column'] – selects the column you want to do math on.
+
+.mean() (or .sum(), .count(), .max(), etc.) – calculates something for each group.
+
+✅ The Core Idea
+Think of groupby like this:
+
+Split → Apply → Combine
+
+Split the data into groups (based on a column)
+
+Apply a function (like sum or mean)
+
+Combine the result back into a new table
+
+🔄 What Is Reshaping in Pandas?
+Reshaping refers to changing the structure of your DataFrame — 
+like pivoting, unpivoting, stacking, or unstacking data — to better analyze or visualize it.
+
+🔁 Key Reshaping Methods
+1. .pivot()
+Purpose: Reshape data by turning unique values from one column into multiple columns.
+
+Example:
+
+df.pivot(index='date', columns='category', values='value')
+This will create a new DataFrame where each unique category becomes a column, indexed by date.
+
+2. .melt()
+Purpose: Unpivot a DataFrame from wide to long format.
+
+Example:
+
+df.melt(id_vars=['id'], value_vars=['A', 'B'], var_name='variable', value_name='value')
+This transforms columns A and B into rows, making the DataFrame longer.
+
+3. .stack() and .unstack()
+Purpose: Stack turns columns into rows (longer DataFrame), and unstack does the opposite.
+
+Example:
+
+
+df.stack()
+df.unstack()
+These are useful for reshaping hierarchical indexes.
+
+🧠 When to Use What?
+Use .pivot() when you need to spread rows into columns.
+
+Use .melt() when you need to condense columns into rows.
+
+Use .stack() and .unstack() for reshaping multi-level indexed DataFrames.
+
+
+🧠 Key Takeaways: Hierarchical Indexing (MultiIndex)
+MultiIndex allows you to have multiple levels (indexes) on an axis.
+
+You can think of it like having a table within a table, useful for higher-dimensional data in a 2D DataFrame.

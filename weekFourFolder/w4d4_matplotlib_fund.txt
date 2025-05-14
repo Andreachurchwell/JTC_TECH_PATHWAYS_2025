@@ -1,0 +1,77 @@
+Key Terms
+Figure: The entire window or page where the visualization is drawn
+Axes: A subplot or individual plot area within a figure
+Plot: The visual representation of data on axes
+Markers: Symbols used to indicate data points on a plot
+Legend: A key that identifies elements in the plot
+Colormap: A mapping of values to colors
+Ticks: Marks along the axes that denote values
+Label: Text that identifies an axis or a data series
+Subplot: An individual plot within a grid of plots
+Scatter Plot: A plot showing individual data points as markers
+Line Plot: A plot connecting data points with lines
+Histogram: A plot showing the distribution of a dataset
+Bar Chart: A plot with rectangular bars proportional to values
+Box Plot: A plot showing the distribution of data through quartiles
+Annotation: Text or shapes added to a plot to highlight specific information
+DPI: Dots Per Inch, a measure of resolution when saving figures
+
+
+📊 Matplotlib Fundamentals (Cheat Sheet Style)
+🔹 What is Matplotlib?
+Matplotlib is a Python library used to create static, interactive, and animated visualizations. It’s great for line charts, bar graphs, scatter plots, and more.
+
+
+
+🛠️ Basic Setup
+python
+Copy
+Edit
+import matplotlib.pyplot as plt
+This is the standard import used in most projects.
+
+📈 Basic Line Plot
+
+x = [1, 2, 3, 4]
+y = [10, 20, 25, 30]
+
+plt.plot(x, y)
+plt.title('Simple Line Plot')
+plt.xlabel('X Axis')
+plt.ylabel('Y Axis')
+plt.show()
+                            📊  Common Plot Types
+                  Plot Type	                             Function
+                  Line Plot	                             plt.plot()
+                  Bar Chart	                             plt.bar()
+                  Scatter Plot	                         plt.scatter()
+                  Histogram                              plt.hist()
+                  Pie Chart	                             plt.pie()
+
+🎨 Customization Options
+
+plt.plot(x, y, color='green', linestyle='--', marker='o', label='Data Line')
+plt.legend()  # shows the label
+Option	
+color='red'	Line color
+linestyle='--'	Line style (-, --, :, -.)
+marker='o'	Marker type (o, s, *)
+label='...'	Legend label
+
+🧱 Subplots
+
+plt.subplot(1, 2, 1)  # rows, columns, position
+plt.plot(x, y)
+
+plt.subplot(1, 2, 2)
+plt.bar(x, y)
+
+plt.tight_layout()
+plt.show()
+
+🖼️ Saving a Plot
+plt.savefig('my_plot.png')  # Save to file
+
+🧽 Clearing or Resetting Plots
+plt.clf()  # Clears the current figure
+plt.close() 

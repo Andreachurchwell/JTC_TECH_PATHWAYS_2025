@@ -1,0 +1,10 @@
+Weather Data: Measurements of weather conditions like temperature and rainfall
+Temperature: Measurement of how hot or cold it is (in °C or °F)
+Precipitation: Amount of rainfall or snowfall (usually in mm or inches)
+Humidity: Amount of moisture in the air (as a percentage)
+Time Series Data: Data points collected at regular time intervals
+Seasonality: Regular patterns that repeat over time (like summer being warmer than winter)
+Data Cleaning: Process of fixing or removing incorrect or missing data
+Missing Values: Data points that weren't recorded or were lost
+Average (Mean): The sum of values divided by the number of values
+Maximum/Minimum: The highest and lowest values in a dataset

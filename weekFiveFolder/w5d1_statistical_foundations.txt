@@ -1,0 +1,18 @@
+Key Terms
+Descriptive Statistics: Statistical methods that summarize and describe the main features of a dataset
+Central Tendency: Measures that describe the center of a data distribution (mean, median, mode)
+Mean: The arithmetic average of a set of values
+Median: The middle value in an ordered dataset
+Mode: The most frequently occurring value in a dataset
+Dispersion: Measures that describe the spread or variability of data
+Range: The difference between the maximum and minimum values
+Variance: The average of squared deviations from the mean
+Standard Deviation: The square root of the variance, indicating data spread
+Quartiles: Values that divide a dataset into four equal parts
+Interquartile Range (IQR): The difference between the third quartile (Q3) and the first quartile (Q1)
+Outlier: A data point that differs significantly from other observations
+Z-score: The number of standard deviations a data point is from the mean
+Distribution: The pattern of variation in a dataset
+Normal Distribution: A symmetric bell-shaped distribution defined by its mean and standard deviation
+Skewness: A measure of the asymmetry of a distribution
+Kurtosis: A measure of the "tailedness" of a distribution

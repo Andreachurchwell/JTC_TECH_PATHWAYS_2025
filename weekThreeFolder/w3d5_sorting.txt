@@ -1,0 +1,99 @@
+Linear Search: A simple search method that checks each element in a list one by one until the target is found or the end is reached.
+
+Binary Search: A fast search algorithm that works on sorted lists by repeatedly dividing the search space in half and comparing the middle element to the target.
+
+Search Space: The set of elements being searched through to find a specific target.
+
+Target Element: The specific item you’re looking for within a list or collection.
+
+Mid-Point: The middle index or element used in Binary Search to divide the list into halves.
+
+Comparison Function: A function that compares two values and helps determine if they are equal, or which one is greater or smaller.
+
+Time Complexity: Describes how the time required by an algorithm grows as the size of the input increases.
+
+Space Complexity: Describes how much memory an algorithm uses as the input size increases.
+
+Iterative Implementation: A version of an algorithm that uses loops (like for or while) to repeat operations.
+
+Recursive Implementation: A version of an algorithm where a function repeatedly calls itself with a smaller part of the input until a base condition is met.
+
+
+🔍 When to Use Linear Search
+✅ The list is unsorted.
+
+✅ The list is small, so performance isn’t a big concern.
+
+✅ You want simple logic without worrying about sorting.
+
+✅ You may need to search in real-time as data is received (e.g. streaming input).
+
+Time Complexity:
+
+Best case: O(1) (if target is the first element)
+
+Worst/average case: O(n), where n is the number of elements
+
+Space Complexity:
+
+O(1) – no extra memory is needed
+
+
+
+🔍 When to Use Binary Search
+✅ The list is already sorted (very important!).
+
+✅ You need fast lookups on large datasets.
+
+❌ Do not use it if the data is unsorted or changes frequently without re-sorting.
+
+Time Complexity:
+
+Best case: O(1) (if the mid-point is the target)
+
+Worst/average case: O(log n), where n is the number of elements
+
+Space Complexity:
+
+O(1) for iterative
+
+O(log n) for recursive due to call stack
+
+
+| Feature              | Linear Search | Binary Search   |
+| -------------------- | ------------- | --------------- |
+| Requires Sorted List | ❌ No          | ✅ Yes           |
+| Speed on Large Lists | 🐢 Slower     | ⚡ Faster        |
+| Logic Simplicity     | ✅ Easy        | ❌ More Complex  |
+| Time Complexity      | O(n)          | O(log n)        |
+| Space Complexity     | O(1)          | O(1) / O(log n) |
+
+
+🔍 1. Finding Specific Data in Large Collections
+Example: You have a database of 10,000 customer records, and you need to find everyone named "Andrea."
+
+Without search: you'd manually check every record.
+
+With search: type "Andrea" and instantly get matches.
+
+🔍 2. Searching Text in Documents or Websites
+Example: A user wants to find all blog posts that mention "Python."
+
+Websites (like blogs or forums) need a search feature so users can quickly access relevant content.
+
+🔍 3. Filtering Through User Input or Product Lists
+Example: An e-commerce site lets users type "red shoes" to see only red shoes.
+
+Search helps users avoid browsing hundreds of items manually.
+
+🔍 4. Searching Code or Logs
+Example: Developers use search to:
+
+Find a specific function in a big codebase.
+
+Locate an error message in 1,000 lines of log output.
+
+🔍 5. Real-Time Suggestions (Autocomplete)
+Example: As you type in Google, results appear instantly.
+
+This uses a search algorithm under the hood
