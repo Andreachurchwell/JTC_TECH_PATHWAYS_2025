@@ -3,7 +3,7 @@
 # import matplotlib.pyplot as plt
 
 # # Your OpenWeather API Key
-# API_KEY = "39d51758f6fdfbe1af66a159b7184d6a"
+
 
 # # Base URL for OpenWeather API
 # BASE_URL = 'http://api.openweathermap.org/data/2.5/onecall'
@@ -67,7 +67,7 @@
 
 # import requests
 
-# API_KEY = "39d51758f6fdfbe1af66a159b7184d6a"
+
 # url = f'http://api.openweathermap.org/data/2.5/weather?q=Selmer,US&appid={API_KEY}&units=imperial'
 
 # response = requests.get(url)
@@ -82,7 +82,6 @@
 # import requests
 # import datetime
 
-# API_KEY = "39d51758f6fdfbe1af66a159b7184d6a"
 
 # # Coordinates for Selmer, TN (You can adjust coordinates for other locations)
 # lat = 35.1701
@@ -128,11 +127,10 @@
 
 # FROM WEATHERBIT
 # API Key	Name	
-# eafa4bb747ca407b8878f73a0c8dc0b3	Master API Key
+
 # import requests
 
-# API_KEY = "eafa4bb747ca407b8878f73a0c8dc0b3"  # Your API Key
-# base_url = "https://api.weatherbit.io/v2.0/history/hourly"  # Endpoint for hourly historical weather data
+
 
 # # Coordinates for Selmer, TN
 # lat = 35.1701
@@ -163,8 +161,7 @@
 # import csv
 # import pandas as pd
 # import matplotlib.pyplot as plt
-# API_KEY = "eafa4bb747ca407b8878f73a0c8dc0b3"
-# base_url = "https://api.weatherbit.io/v2.0/history/hourly"
+
 
 # lat = 35.1701
 # lon = -88.5923
@@ -214,7 +211,7 @@
 # from datetime import datetime
 
 # # API key and base URL
-# API_KEY = "eafa4bb747ca407b8878f73a0c8dc0b3"
+
 # base_url = "https://api.weatherbit.io/v2.0/history/hourly"
 
 # # Coordinates for Selmer, TN
@@ -301,7 +298,7 @@
 # import pandas as pd
 
 # # API key and base URL
-# API_KEY = "eafa4bb747ca407b8878f73a0c8dc0b3"
+
 # base_url = "https://api.weatherbit.io/v2.0/history/hourly"
 
 # # Coordinates for Selmer, TN

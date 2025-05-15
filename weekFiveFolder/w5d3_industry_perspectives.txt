@@ -1,0 +1,11 @@
+Key Terms
+Package Manager: A tool that automates the process of installing, upgrading, and managing software
+Homebrew: A popular package manager for macOS
+Chocolatey: A package manager for Windows
+Virtual Environment: An isolated Python environment containing specific packages for a project
+Repository: A storage location for a software project that tracks changes
+Git Config: Settings that configure Git with your identity and preferences
+Extension: Add-ons that extend VS Code's functionality for specific languages or tools
+Terminal/Command Line: Text-based interface for executing commands
+Clone: Creating a local copy of a remote repository
+IDE: Integrated Development Environment - a software application for writing code
