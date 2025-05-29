@@ -1,0 +1,70 @@
+Overview
+This class introduces key descriptive statistics—such as mean, median, variance, and standard deviation—and teaches fellows how to apply them using Python to analyze data distributions, identify outliers, and support data-driven insights.
+
+Key Terms
+Time Series Resampling - The process of converting a time series from one frequency to another
+Upsampling - Increasing the frequency of a time series (e.g., daily to hourly)
+Downsampling - Decreasing the frequency of a time series (e.g., hourly to daily)
+Aggregation Function - A function used to combine multiple values when downsampling (e.g., mean, sum, min, max)
+Interpolation - Method used to estimate new values when upsampling (e.g., linear, cubic, spline)
+Rolling Window - A fixed-size window that moves through a time series one step at a time
+Window Size - The number of observations included in each rolling calculation
+Moving Average - The average calculated over a rolling window of data points
+Simple Moving Average (SMA) - A moving average where all observations in the window have equal weight
+Exponentially Weighted Moving Average (EWMA) - A moving average where more recent observations have higher weights
+Alpha (α) - The smoothing factor in EWMA that determines how quickly the weights decrease for older observations
+Frequency Offset - String aliases used in pandas to specify time frequencies (e.g., 'D' for day, 'M' for month-end)
+Trailing Window - A rolling window that includes the current observation and previous observations
+Centered Window - A rolling window centered around the current observation with equal number of observations before and after
+Volatility - A measure of variation or dispersion in a time series, often calculated using rolling standard deviation
+
+
+
+🧠 1. Understand the Concepts Simply
+Here’s a quick cheat sheet in your own words:
+
+📊 Descriptive Stats:
+Mean – average
+
+Median – the middle value
+
+Variance – how far numbers are from the mean
+
+Standard Deviation – the average distance from the mean (square root of variance)
+
+⏱️ Time Series Concepts:
+Resampling – Changing how often you look at data (e.g., daily → weekly).
+
+Upsampling – Increase frequency (add more rows, need to estimate values).
+
+Downsampling – Reduce frequency (group values, need to aggregate).
+
+Aggregation Function – How you combine values when downsampling (e.g., take the mean).
+
+📐 Interpolation:
+Used with upsampling to "fill in the blanks" using estimated values:
+
+Linear: straight-line between known points.
+
+Spline/Cubic: smoother curves between points.
+
+🔁 Rolling Windows:
+A way to look at a small chunk (window) of the data at a time.
+
+Window Size – How many data points are in the window (e.g., 3 days).
+
+Moving Average – The average of each window’s values.
+
+Simple Moving Average (SMA) – All values are weighted equally.
+
+EWMA – More recent data has more weight.
+
+Controlled by alpha (α) – closer to 1 means recent values matter more.
+
+🧭 Types of Windows:
+Trailing Window – Looks only at current and past values.
+
+Centered Window – Includes values before and after current one.
+
+📈 Volatility:
+A measure of how much values change (standard deviation over time)

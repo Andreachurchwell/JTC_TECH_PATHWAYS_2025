@@ -1,0 +1,26 @@
+Key Terms
+Aggregation Function - A SQL function that performs a calculation on multiple values and returns a single value
+GROUP BY - A SQL clause that groups rows that have the same values into summary rows
+HAVING - A SQL clause that filters data based on aggregated values
+COUNT() - A function that returns the number of rows that match a specified criterion
+SUM() - A function that calculates the total sum of a numeric column
+AVG() - A function that calculates the average value of a numeric column
+MIN() - A function that returns the smallest value of the selected column
+MAX() - A function that returns the largest value of the selected column
+Window Function - A function that performs a calculation across a set of table rows related to the current row
+Analytical Query - A SQL query designed to analyze data rather than simply retrieve it
+Time-Series Analysis - Analysis of data points collected over time to identify trends
+Aggregate - A summary value calculated from multiple rows
+DISTINCT - A keyword used with aggregation functions to count or aggregate only unique values
+NULL Handling - The way SQL treats NULL values in aggregation functions
+
+
+✅ 1. Review the Key SQL Clauses and Functions
+Make sure you understand the purpose and basic syntax of each:
+
+Concept	                                             What to Know
+COUNT(*), SUM(), AVG(), MIN(), MAX()	             These operate on columns across rows (can be grouped).
+GROUP BY	                                         Used to group rows by one or more columns.
+HAVING vs WHERE	                                     WHERE filters before aggregation, HAVING filters after.
+DISTINCT	                                         Filters out duplicate values—try combining with COUNT(DISTINCT col).
+NULL Handling	                                     Aggregates usually ignore NULL (e.g., AVG() skips NULLs).

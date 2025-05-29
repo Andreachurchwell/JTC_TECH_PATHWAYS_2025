@@ -1,0 +1,18 @@
+Overview
+This class focuses on mastering SQL JOIN operations and subqueries to efficiently query and analyze related data across multiple tables, with a practical application to weather data analysis.
+
+Key Terms
+JOIN - A SQL operation that combines rows from two or more tables based on a related column
+INNER JOIN - Returns records that have matching values in both tables
+LEFT JOIN (or LEFT OUTER JOIN) - Returns all records from the left table and matched records from the right table
+RIGHT JOIN (or RIGHT OUTER JOIN) - Returns all records from the right table and matched records from the left table
+FULL JOIN (or FULL OUTER JOIN) - Returns all records when there is a match in either the left or right table
+CROSS JOIN - Returns the Cartesian product of the two tables (all possible combinations)
+Subquery - A query nested inside another query
+Correlated Subquery - A subquery that references columns from the outer query
+Self Join - Joining a table to itself
+Foreign Key - A field in one table that refers to the primary key in another table
+Table Alias - A temporary name given to a table in a query
+Join Condition - The specification of which columns to match in a JOIN operation
+Cartesian Product - The result of a CROSS JOIN, showing all possible combinations of rows
+Query Optimization - The process of making SQL queries run more efficiently

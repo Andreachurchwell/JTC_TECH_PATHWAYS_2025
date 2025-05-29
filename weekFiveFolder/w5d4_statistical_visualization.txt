@@ -1,0 +1,11 @@
+Key Terms
+Box Plot (Box-and-Whisker Plot): A visualization that displays the distribution of data based on a five-number summary (minimum, first quartile, median, third quartile, maximum)
+Histogram: A graphical representation of the distribution of a dataset that groups data into bins and shows the frequency of observations in each bin
+Bar Chart: A graph that presents categorical data with rectangular bars with heights proportional to the values they represent
+Distribution: The pattern of variation in a dataset
+Outlier: A data point that differs significantly from other observations in the dataset
+Interquartile Range (IQR): The range between the first quartile (25th percentile) and third quartile (75th percentile)
+Bin: A segment of values in a histogram that represents a range of the dataset
+Frequency: The number of occurrences of a particular value or range of values in a dataset
+Grouped Bar Chart: A type of bar chart that displays multiple bars for each categorical group, used for comparing multiple variables
+Stacked Bar Chart: A bar chart where each bar is divided into segments representing different categories

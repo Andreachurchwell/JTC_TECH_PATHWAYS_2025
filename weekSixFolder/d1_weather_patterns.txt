@@ -1,0 +1,48 @@
+This class focuses on analyzing time series data for weather patterns, teaching fellows to identify and visualize seasonality and trends in temperature and precipitation, and apply these concepts to their weather project.
+
+Key Terms
+Time Series Data: Sequential data points indexed in time order, typically collected at regular intervals
+Seasonality: Regular, predictable patterns in data that repeat at fixed intervals (daily, monthly, yearly)
+Trend: The long-term progression of a time series, showing overall increase, decrease, or stability
+Cyclical Pattern: Patterns that occur but not at fixed frequencies, often related to economic or business cycles
+Moving Average: A calculation used to analyze data points by creating a series of averages from different subsets
+Autocorrelation: The correlation of a signal with a delayed copy of itself, useful for finding repeating patterns
+Seasonality Index: A measure that quantifies the seasonal effect for each period within the seasonal cycle
+Trend Analysis: Statistical techniques to identify and measure long-term movements in time series data
+
+
+🟢 1. Trend
+The overall direction of the data over time.
+It can move up, down, or stay flat.
+Doesn’t have to be perfectly straight — just the general direction.
+Example: A steady increase in average temperature over 10 years = upward trend.
+
+
+🔁 2. Seasonality
+A repeating pattern at regular time intervals (daily, monthly, yearly).
+Caused by seasonal or calendar effects.
+Example:
+Retail sales spike every December due to holidays.
+Key tip: If a pattern repeats at predictable times, it’s seasonal.
+
+
+
+🔵 3. Stationary
+A time series is stationary if its mean, variance, and overall behavior stay constant over time.
+That means:
+No trend
+No seasonality
+Just small ups and downs around a consistent average
+Example: Daily noise in stock prices without a clear direction = stationary.
+Why does this matter?
+Most statistical models (like ARIMA) require the data to be stationary to make accurate predictions.
+
+
+
+
+
+
+
+
+
+
