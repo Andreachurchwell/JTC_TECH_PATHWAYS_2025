@@ -1,0 +1,7 @@
+Canvas: A widget for drawing shapes, images, and embedding other widgets
+FigureCanvasTkAgg: Matplotlib backend for embedding plots in Tkinter applications
+NavigationToolbar2Tk: Matplotlib toolbar for plot interaction within Tkinter
+Plot Embedding: The process of integrating matplotlib figures into Tkinter windows
+Draw Method: Updates the embedded matplotlib plot after changes
+Figure: A matplotlib object representing the entire plot area
+Axes: The area within a figure where data is plotted

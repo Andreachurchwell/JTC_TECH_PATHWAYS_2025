@@ -310,19 +310,80 @@
 # print(countWords('hey, my name is andrea'))
 
 
-student = {
-    "name": "Andrea",
-    "grades": {
-        "math": 88,
-        "science": 92,
-        "english": 85
-    }
-}
+# student = {
+#     "name": "Andrea",
+#     "grades": {
+#         "math": 88,
+#         "science": 92,
+#         "english": 85
+#     }
+# }
 
-def getGrade(student, subject):
-    return student['grades'][subject]
-print(getGrade(student, 'science'))
+# def getGrade(student, subject):
+#     return student['grades'][subject]
+# print(getGrade(student, 'science'))
     
 
 
 
+
+# students = {
+#     "John": {"math": 85, "science": 92},
+#     "Emily": {"math": 78, "science": 88},
+#     "Michael": {"math": 90, "science": 94}
+# }
+
+
+# # print(students["Michael"]['science'])
+# students.update({"Sarah": {"math": 82, "science": 89}})
+# print(students)
+
+# def getavg(students):
+#     total = 0
+#     count = 0
+#     for student in students:
+#         total += students[student]['math']
+#         count += 1
+#     avg = total / count
+#     print("Average math score:", avg)
+# getavg(students)
+
+
+
+
+# students = {
+#     "John": {"math": 85, "science": 92},
+#     "Emily": {"math": 78, "science": 88},
+#     "Michael": {"math": 90, "science": 94}
+# }
+
+# def getavg(students):
+
+#     for student in students:
+#         print(student)
+#         grades = students[student]
+#         math = grades['math']
+#         science = grades['science']
+#         avg = (math + science)/2
+#         print(f"{student}'s avg grade is {avg:.2f}")
+    
+
+
+# getavg(students)
+
+
+
+students = {
+    "John": {"math": 85, "science": 92, "english": 78},
+    "Emily": {"math": 78, "science": 88, "english": 90},
+    "Michael": {"math": 90, "science": 94, "english": 85}
+}
+
+def getavg(students):
+    for student, grades in students.items():
+        total = sum(grades.values())
+        count = len(grades)
+        avg = total / count
+        print(f"{student}'s average grade is {avg:.2f}")
+
+getavg(students)

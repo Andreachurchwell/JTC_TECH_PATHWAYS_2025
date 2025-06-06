@@ -1,0 +1,8 @@
+Tkinter: Python's standard GUI (Graphical User Interface) library for creating desktop applications
+Root Window: The main application window that serves as the parent for all other widgets
+Widget: A GUI element (button, label, text box) that users can see and interact with
+Mainloop: The event loop that keeps the GUI window open and responsive to user actions
+Frame: A container widget used to organize and group other widgets
+Pack: A geometry manager that organizes widgets in blocks before placing them in the parent widget
+Grid: A geometry manager that organizes widgets in a table-like structure with rows and columns
+Place: A geometry manager that positions widgets at absolute locations using x,y coordinates

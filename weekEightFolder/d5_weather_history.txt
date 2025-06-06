@@ -1,0 +1,19 @@
+Overview
+This class guides students through integrating SQLite with Tkinter to build a complete weather history dashboard, including persistent data storage, interactive search and filtering, CRUD operations, and dynamic visualizations using matplotlib—all within a responsive GUI.
+
+Key Terms
+SQLite: A lightweight disk-based database that doesn't require a server, perfect for storing application data
+Database Cursor: An object that enables traversal over the records in a database
+CRUD Operations: Create, Read, Update, and Delete - the four basic functions of persistent storage
+Primary Key: A unique identifier for each record in a database table
+Query: A request for data or information from a database table
+Persistence: The characteristic of data that outlives the process that created it
+Data Binding: Connecting user interface elements to data sources
+Time Series: Data points indexed in time order, typically for sequential measurements
+Data Visualization: The graphical representation of information and data
+Filter: A mechanism to selectively display certain records based on criteria
+Commit: The action that saves changes to a database permanently
+Foreign Key: A field that links to the primary key in another table
+Data Migration: The process of transferring data between storage types or formats
+Data Integrity: The maintenance and assurance of data accuracy and consistency
+Date Range: A span of time between two dates, used for filtering historical data

@@ -1,0 +1,16 @@
+Key Terms
+Relational Database - A database structured to recognize relations among stored items of information
+SQL (Structured Query Language) - The standard language for interacting with relational databases
+SQLite - A lightweight, file-based relational database system
+Primary Key - A column or set of columns that uniquely identifies each row in a table
+Foreign Key - A field in one table that refers to the primary key in another table
+JOIN - An operation that combines rows from two or more tables based on a related column
+Subquery - A query nested inside another query
+Aggregation - The process of summarizing multiple rows into a single result
+GROUP BY - A clause that groups rows that have the same values into summary rows
+HAVING - A clause that filters groups after aggregation
+Normalization - The process of organizing data to reduce redundancy and improve integrity
+Transaction - A sequence of operations performed as a single logical unit of work
+Index - A data structure that improves the speed of data retrieval operations
+Query Plan - A sequence of steps used to access data in a SQL database system
+Schema - The structure that represents the logical configuration of all or part of a relational database

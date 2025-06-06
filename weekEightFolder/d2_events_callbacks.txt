@@ -1,0 +1,9 @@
+W8D2: Advanced Widgets
+Button: A clickable widget that triggers an action when pressed
+Label: A widget for displaying text or images that users cannot edit
+Entry: A single-line text input widget for user data entry
+Text: A multi-line text widget for displaying or editing larger amounts of text
+StringVar: A Tkinter variable class that holds string values and can be linked to widgets
+IntVar: A Tkinter variable class that holds integer values and can be linked to widgets
+Command: A parameter that specifies which function to call when a widget is activated
+Config/Configure: Methods used to modify widget properties after creation
