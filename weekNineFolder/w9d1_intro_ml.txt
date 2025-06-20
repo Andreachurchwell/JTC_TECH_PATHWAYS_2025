@@ -1,0 +1,79 @@
+🔍 1. Understand the Core Difference: ML vs. Traditional Programming
+You’ve already done traditional programming, like writing Python functions and using conditionals and loops. Now here's how machine learning (ML) is different:
+
+Traditional Programming	Machine Learning
+You write explicit rules	The computer learns the rules from data
+Input + Rules → Output	Input + Output → Model learns rules
+
+✅ Example:
+In programming, you'd write an if statement to say “if score > 70: pass.”
+In ML, you’d give it 100 examples of scores and outcomes, and the model would learn that 70 is the cutoff.
+
+📚 2. Types of Machine Learning You’ll Hear About
+These are the basic categories to recognize:
+
+Type	What It Means
+Supervised	You train the model with labeled data (e.g., "this is a dog", "this is a cat")
+Unsupervised	You give the model only inputs and it finds structure (e.g., clustering)
+Reinforcement	The model learns by trial and error with rewards or penalties
+
+🎯 Your Focus Tonight: Mainly supervised learning — where you already know the outcome you want to predict (like “pass/fail” or “spam/not spam”).
+
+
+🛠 3. Project Workflow in Machine Learning
+Here's a simplified pipeline for how most ML projects go:
+
+Define the Problem – What are we trying to predict?
+
+Collect Data – You need examples of inputs and (usually) labels.
+
+Preprocess Data – Clean it, deal with missing values, normalize if needed.
+
+Choose a Model – (Like DecisionTreeClassifier or LogisticRegression)
+
+Train the Model – Fit the model using model.fit(X, y)
+
+Evaluate – Check accuracy or error with model.score() or confusion_matrix
+
+Tune and Improve – Adjust parameters to make it better
+
+
+⚙️ 4. Get Comfortable with scikit-learn
+You’ll likely use scikit-learn tonight — it’s the go-to ML library in Python. Here's the typical pattern you'll use:
+
+
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+
+# Load data
+data = load_iris()
+X = data.data
+y = data.target
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Choose and train model
+model = DecisionTreeClassifier()
+model.fit(X_train, y_train)
+
+# Evaluate
+score = model.score(X_test, y_test)
+print("Accuracy:", score)
+You don't have to memorize this — just get familiar with the idea:
+
+Load → Split → Train → Test
+
+
+🧠 5. Know These Basic Terms
+You'll hear these terms tonight — here's what they mean simply:
+
+Term	                                                 What It Means
+Feature	                                                 An input variable (e.g., hours studied)
+Label / Target	                                         The thing you're predicting (e.g., pass/fail)
+Model	                                                 The function the machine learns
+Train/Test Split	                                     Dividing your data into learning and checking
+Accuracy	                                             How many predictions were correct
+Overfitting	                                             When the model is too specific to the training data
+Underfitting	                                         When the model is too simple and misses patterns

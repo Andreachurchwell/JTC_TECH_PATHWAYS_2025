@@ -1,0 +1,98 @@
+# Weather Time Series Visualization Cheat Sheet
+
+## 1. Basic Time Series Line Plot
+- Purpose: Show overall trend and seasonal patterns over time.
+- Tips:
+  - Plot variable vs. time (e.g., temperature vs. date).
+  - Use clear axis labels and grid.
+  - Format x-axis with readable dates or months.
+- Use when: You want to see trends and seasonality.
+
+---
+
+## 2. Multi-variable Subplots
+- Purpose: Compare multiple weather variables side-by-side.
+- Tips:
+  - Share the x-axis (time).
+  - Use distinct colors for each variable.
+  - Label each subplot clearly.
+- Use when: Comparing variables like temperature, humidity, and precipitation.
+
+---
+
+## 3. Monthly Boxplots
+- Purpose: Show distribution and variability within each month.
+- Tips:
+  - Use month names on x-axis (Jan, Feb, etc.).
+  - Visualize spread, median, and outliers.
+- Use when: Highlighting seasonality and variability.
+
+---
+
+## 4. Dual-axis Plot
+- Purpose: Show relationship between two related variables with different scales.
+- Tips:
+  - Use left y-axis for one variable and right y-axis for the other.
+  - Use different colors for clarity.
+- Use when: Comparing variables like temperature and precipitation.
+
+---
+
+## 5. Correlation Heatmap
+- Purpose: Reveal strength of relationships between variables.
+- Tips:
+  - Use color gradients (e.g., coolwarm).
+  - Annotate cells with correlation coefficients.
+- Use when: Identifying strong/weak variable relationships.
+
+---
+
+## 6. Aggregated Monthly Statistics Plot
+- Purpose: Show average, min, max monthly values with variability shading.
+- Tips:
+  - Plot monthly means with markers.
+  - Shade area between min and max values.
+- Use when: Illustrating seasonal cycles and ranges.
+
+---
+
+## 7. Rolling Statistics & Anomaly Detection
+- Purpose: Identify unusual values compared to rolling mean and std deviation.
+- Tips:
+  - Calculate rolling mean and rolling std (e.g., 30-day window).
+  - Highlight points beyond ±2 standard deviations.
+  - Show confidence intervals as shaded areas.
+- Use when: Detecting anomalies or outliers.
+
+---
+
+## 8. Simulated Interactive Highlights
+- Purpose: Emphasize specific data subsets like seasons.
+- Tips:
+  - Plot background data in muted colors.
+  - Highlight selected periods (e.g., summer, winter) in bright colors.
+- Use when: Drawing attention to important time periods.
+
+---
+
+## 9. Polar Plot for Seasonal Cycle
+- Purpose: Display cyclical annual patterns in circular layout.
+- Tips:
+  - Map months to radians (angles).
+  - Close the loop by repeating the first point.
+  - Use markers and fill area for visual appeal.
+- Use when: Visualizing repeating seasonal patterns.
+
+---
+
+# Additional Visualization Tips
+
+- Use `matplotlib.dates` for date formatting (e.g., `DateFormatter`, `MonthLocator`).
+- Choose consistent, meaningful colors (e.g., red = warm, blue = cold).
+- Always label axes, add titles, legends.
+- Use grids and `plt.tight_layout()` to improve readability.
+- Smooth noisy data with rolling windows; pick appropriate window size.
+- Visualize outliers clearly to understand data quality.
+- For interactive exploration, try Plotly, Bokeh, or Matplotlib widgets.
+
+

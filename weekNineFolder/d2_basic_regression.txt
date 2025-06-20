@@ -1,0 +1,33 @@
+Key Terms
+
+Regression: A statistical method used to model relationships between a dependent variable and one or more independent variables
+
+Linear Regression: A regression model that assumes a linear relationship between input variables and the target variable
+
+Simple Linear Regression: Linear regression with one independent variable
+
+Multiple Linear Regression: Linear regression with multiple independent variables
+
+Dependent Variable: The target variable (y) we're trying to predict
+
+Independent Variable: The input variable(s) or features (x) used for prediction
+
+Coefficient: The value that represents how a change in an input variable affects the target variable
+
+Intercept: The predicted value when all independent variables are zero
+
+Least Squares Method: A technique to find the line that minimizes the sum of squared differences between observed and predicted values
+
+Residual: The difference between the observed value and the predicted value
+
+Mean Squared Error (MSE): The average of the squared residuals
+
+Root Mean Squared Error (RMSE): The square root of the MSE, in the same units as the target variable
+
+R-squared (R²): A statistical measure that represents the proportion of variance in the dependent variable explained by the independent variables
+
+Correlation: A measure of the strength and direction of a linear relationship between two variables
+
+Overfitting: When a model learns the training data too well, including its noise and outliers
+
+Underfitting: When a model is too simple to capture the underlying pattern in the data

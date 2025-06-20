@@ -1,0 +1,14 @@
+Overview
+This class focuses on embedding trained ML models into Tkinter applications, creating responsive real-time prediction interfaces, and implementing asynchronous processing, model loading, and user-friendly design features like progress indicators.
+
+Key Terms
+Model Persistence: Saving trained models to disk for later use
+Joblib: Efficient library for serializing scikit-learn models
+Threading: Running code in parallel to keep GUI responsive
+Callback Hell: Nested callbacks that make code hard to read
+Asynchronous Processing: Non-blocking operations that run in background
+Progress Bar: Widget showing completion status of long operations
+Model Pipeline: Complete workflow from input to prediction
+Thread-Safe: Code that works correctly when accessed by multiple threads
+GUI Freezing: When interface becomes unresponsive during processing
+Event Queue: Tkinter's mechanism for handling GUI updates

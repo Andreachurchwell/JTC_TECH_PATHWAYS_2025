@@ -1,0 +1,20 @@
+🔍 Key Concepts Simplified
+Forecast Horizon – How far into the future you're predicting (e.g., 1 hour, 3 days).
+
+Confidence Band – A shaded area around the forecast line showing how “sure” the model is (like a margin of error).
+
+Ensemble Forecast – Using the average or majority vote from multiple models to get better accuracy.
+
+Now-casting – Super short-term forecasts (e.g., "What will it be like in 30 minutes?").
+
+Forecast Skill – Score showing how much better your model is than just guessing based on yesterday.
+
+Update Cycle – How often new predictions are made (e.g., every hour).
+
+Weather Widget – A mini display, like what you see on a smartphone home screen.
+
+Forecast Grid – A grid layout that shows predictions for different areas or times.
+
+Temporal Resolution – How detailed your time-based data is (e.g., hourly vs. daily).
+
+Alert System – Built-in messages that pop up for stuff like storms or sharp temp drops.
