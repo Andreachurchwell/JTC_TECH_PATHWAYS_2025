@@ -1,0 +1,22 @@
+In this class, fellows explore the structure of the Weather Dashboard Capstone Project, identify core components and optional features, select features aligned with their interests, set up their development environment, and create a personal vision for their application.
+
+Key Terms
+Capstone Project: A culminating project that demonstrates mastery of course concepts
+
+Core Component: The required foundation that every fellow must implement
+
+Feature Menu: A selection of optional features categorized by difficulty (⭐ to ⭐⭐⭐)
+
+Individual Component: The 70% of the project completed independently
+
+Team Component: The optional 30% collaborative feature
+
+Project Owner: The team member who manages the GitHub repository and integration
+
+API Integration: Connecting to external services to fetch weather data
+
+Enhancement: Personal touches to make the application unique
+
+Minimum Viable Product (MVP): The basic working version with core functionality
+
+Feature Integration: The process of adding new features to the core application
