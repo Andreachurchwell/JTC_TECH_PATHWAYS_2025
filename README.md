@@ -158,5 +158,5 @@ Special thanks to **Justice Through Code** instructors, mentors, and peers for t
 
 
 <div align="center">
-  <img src="assets/jtc.png" alt="JTC Logo" width="100">
+  <img src="assets/jtc.jpg" alt="JTC Logo" width="100">
 </div>
