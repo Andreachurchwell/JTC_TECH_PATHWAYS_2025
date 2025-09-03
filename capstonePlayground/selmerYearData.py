@@ -108,7 +108,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # Replace with Brett's actual API key
-API_KEY = "93baeec09a7547c8a7f2bfbe496c386e"
+
 LAT = 35.1701
 LON = -88.5923
 

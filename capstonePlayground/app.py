@@ -353,7 +353,6 @@
 
 # # --- Tkinter Setup ---
 
-# root = tk.Tk()
 # root.title("Weather + Map + Forecast")
 # root.geometry("820x720")
 # root.configure(bg="#2E2E2E")
