@@ -107,7 +107,7 @@ import requests
 import pandas as pd
 from datetime import datetime, timedelta
 
-# Replace with Brett's actual API key
+
 
 LAT = 35.1701
 LON = -88.5923
