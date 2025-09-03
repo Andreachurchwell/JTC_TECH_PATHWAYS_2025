@@ -1,0 +1,22 @@
+In this class, fellows design and implement API integrations for weather data collection, build robust error handling, set up efficient SQLite data storage, and create automated data collection pipelines as the foundation for their capstone weather application.
+
+Key Terms
+API Integration: The process of connecting and communicating with external APIs to retrieve or send data
+
+Data Pipeline: A series of processes that collect, process, and store data from source to destination
+
+Connection Pooling: A technique to manage and reuse database connections efficiently
+
+Rate Limiting: API restrictions on the number of requests that can be made within a specific time period
+
+Data Validation: The process of ensuring data meets specific criteria before storage
+
+Schema Design: The structure and organization of database tables and their relationships
+
+Automated Collection: Systems that gather data on a schedule without manual intervention
+
+Error Recovery: Strategies for handling and recovering from failures in data collection
+
+Data Normalization: Organizing data to reduce redundancy and improve integrity
+
+Batch Processing: Collecting and processing data in groups rather than individually

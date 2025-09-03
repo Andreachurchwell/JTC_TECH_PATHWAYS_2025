@@ -1,0 +1,18 @@
+This class focused on selecting and training appropriate machine learning models for weather forecasting, preparing historical data, implementing ensemble methods, and integrating predictions into a production-ready weather application.
+
+Key Terms
+Model Selection: The process of choosing the most appropriate ML algorithm for a specific prediction task
+Feature Engineering: Creating new input variables from existing data to improve model performance
+Lag Features: Features created from previous time periods (e.g., temperature from 1, 2, 3 days ago)
+Rolling Statistics: Moving averages, minimums, maximums calculated over a time window
+Ensemble Model: A model that combines predictions from multiple individual models
+Train-Test Split: Dividing data into training and testing sets for model evaluation
+Cross-Validation: Technique for assessing model performance using multiple train-test splits
+Model Persistence: Saving trained models to disk for later use without retraining
+Hyperparameters: Model configuration settings that are set before training
+Time Series Split: Special cross-validation for time-ordered data
+Feature Importance: Measure of how much each feature contributes to predictions
+Prediction Pipeline: Complete workflow from raw data to final predictions
+Model Versioning: Tracking different versions of trained models
+Baseline Model: Simple reference model to compare against more complex models
+Prediction Interval: Range of uncertainty around a point prediction

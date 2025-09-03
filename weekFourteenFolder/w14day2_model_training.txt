@@ -1,0 +1,18 @@
+This class focused on advanced feature engineering, hyperparameter tuning, and time series model validation to enhance weather prediction accuracy, while building robust, production-ready testing and evaluation frameworks.
+
+Key Terms
+Feature Engineering: The process of creating new features from existing data to improve model performance
+Interaction Features: New features created by combining two or more existing features
+Polynomial Features: Features created by raising existing features to powers or creating polynomial combinations
+Domain-Specific Features: Features designed based on domain knowledge (e.g., weather patterns)
+Time Series Cross-Validation: Validation techniques that respect temporal order of data
+Walk-Forward Validation: Sequential validation where training window expands over time
+Feature Importance: Measure of how much each feature contributes to model predictions
+Recursive Feature Elimination: Method for selecting features by recursively removing least important ones
+Hyperparameter Tuning: Process of finding optimal model configuration parameters
+Grid Search: Exhaustive search over specified parameter grid
+Random Search: Random sampling from parameter distributions
+Validation Curve: Plot showing model performance vs hyperparameter values
+Learning Curve: Plot showing model performance vs training set size
+Feature Selection: Process of selecting subset of relevant features
+Model Validation Pipeline: Complete workflow for validating model performance

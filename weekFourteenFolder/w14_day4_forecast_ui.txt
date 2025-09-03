@@ -1,0 +1,23 @@
+This class focused on integrating machine learning models into user interfaces by building interactive forecast dashboards, connecting data pipelines, and designing intuitive, user-friendly visualizations to effectively present predictions and uncertainty.
+
+Key Terms
+Dashboard: Interactive interface displaying key information and controls for user interaction 
+Forecast Display: Visual representation of predicted future values with associated confidence intervals 
+Model Integration: Process of incorporating trained ML models into applications for real-time predictions 
+Interactive Visualization: Charts and graphs that respond to user inputs and allow exploration 
+Real-time Prediction: Generating forecasts on-demand based on current user inputs or data 
+User Interface (UI): Visual elements through which users interact with the application 
+User Experience (UX): Overall experience and satisfaction users have when interacting with the interface 
+Data Pipeline: Automated workflow that processes data from source to prediction display 
+Streamlit: Python library for creating interactive web applications for data science 
+Plotly: Interactive visualization library for creating dynamic charts and graphs 
+Model Deployment: Making trained models available for use in production applications 
+API Integration: Connecting different software components through application programming interfaces 
+Responsive Design: Interface design that adapts to different screen sizes and devices 
+State Management: Handling user inputs and application data across different interface interactions 
+Callback Functions: Code that executes in response to user interactions with interface elements 
+Configuration Panel: Interface section allowing users to adjust model parameters and settings 
+Forecast Horizon: Time period into the future for which predictions are generated 
+Confidence Intervals: Range of values indicating uncertainty in predictions 
+Model Selection Interface: UI component allowing users to choose between different forecasting models
+Data Refresh: Process of updating displays with new data or predictions

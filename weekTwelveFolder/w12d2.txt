@@ -1,0 +1,13 @@
+In this class, students build robust data cleaning and transformation pipelines for their weather applications by handling missing values and outliers, creating derived features, ensuring data quality, and preparing their collected weather data for analysis as part of their capstone project.
+
+Key Terms
+Data Cleaning: The process of identifying and correcting errors, inconsistencies, and inaccuracies in datasets
+Data Transformation: Converting data from one format or structure to another for analysis purposes
+Missing Data: Values that are absent from the dataset due to collection failures or other issues
+Outliers: Data points that significantly differ from other observations in the dataset
+Data Imputation: Techniques for filling in missing or invalid data values
+Derived Features: New variables calculated from existing data to provide additional insights
+Data Validation: Processes to ensure data meets quality standards and business rules
+Heat Index: A measure of how hot it feels when relative humidity is factored in with air temperature
+Wind Chill: A measure of how cold it feels when wind speed is factored in with air temperature
+Data Pipeline: An automated sequence of data processing steps from raw input to final output

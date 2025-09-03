@@ -1,0 +1,11 @@
+This class focuses on delivering effective technical demos by presenting project milestones with clear storytelling, engaging diverse audiences, and handling live issues with confidence and clarity.
+
+Key Terms
+Demo Flow: The narrative structure that guides viewers through your demonstration
+Milestone Demonstration: Showing key project achievements in chronological or logical order
+Graceful Degradation: Having backup plans when live features fail
+Audience Engagement: Techniques to keep viewers interested and involved
+Technical Storytelling: Presenting technical concepts within a narrative framework
+Feature Highlighting: Drawing attention to key functionality without overwhelming the audience
+Recovery Strategy: Planned responses to potential demo failures
+Progressive Disclosure: Revealing complexity gradually to avoid overwhelming the audience

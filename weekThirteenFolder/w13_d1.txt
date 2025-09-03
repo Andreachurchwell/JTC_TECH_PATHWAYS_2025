@@ -1,0 +1,18 @@
+This class focuses on teaching fellows how to create clear, user-friendly visualizations of weather data using matplotlib, including line, bar, and scatter plots, to support their capstone weather applications.
+
+Key Terms
+Data Visualization: The graphical representation of information and data using visual elements
+Line Chart: A chart that displays data points connected by straight lines, ideal for showing trends over time
+Bar Chart: A chart that presents data with rectangular bars, good for comparing discrete categories
+Scatter Plot: A chart using dots to represent values, useful for showing relationships between variables
+Time Series Plot: A line chart specifically designed to show data changes over time periods
+Dashboard: A visual display combining multiple charts and information in one organized view
+Chart Customization: Modifying colors, styles, labels, and other visual elements to improve readability
+Axis Labels: Text descriptions that explain what each axis represents in a chart
+Legend: A guide that explains the meaning of different colors, symbols, or lines in a chart
+Grid Lines: Horizontal and vertical lines that help readers estimate values more accurately
+Figure and Axes: Matplotlib concepts where Figure is the overall container and Axes are individual plot areas
+Color Mapping: Assigning specific colors to represent different weather conditions or value ranges
+Plot Styling: Techniques for making charts visually appealing and professional-looking
+Data Aggregation: Combining multiple data points to create summary visualizations
+Chart Integration: Embedding matplotlib charts into GUI applications like Tkinter

@@ -1,0 +1,22 @@
+This class focuses on understanding and handling errors in Python programs by using try-except blocks, managing multiple exception types, building user-friendly error messages, and writing defensive code that ensures applications remain stable and responsive.
+
+Key Terms
+Exception: An error that occurs during program execution that can be handled 
+Try Block: Code section where you expect an error might occur 
+Except Block: Code that runs when a specific exception occurs 
+Finally Block: Code that always runs, regardless of whether an exception occurred 
+Else Block: Code that runs only if no exception occurred in the try block 
+Raise: Keyword used to manually trigger an exception 
+Traceback: The error message that shows where and why an error occurred 
+Stack Trace: Detailed information about the function calls leading to an error 
+Error Handling: The practice of anticipating and managing errors in code 
+Graceful Degradation: Allowing a program to continue operating when errors occur 
+Input Validation: Checking user input to ensure it meets expected criteria 
+Defensive Programming: Writing code that anticipates potential problems 
+Exception Hierarchy: The organization of different exception types in Python 
+Custom Exception: User-defined exception classes for specific error scenarios 
+Error Message: Human-readable description of what went wrong 
+Robust Code: Code that handles unexpected situations without crashing 
+Fault Tolerance: A program's ability to continue operating despite errors 
+Exception Propagation: How exceptions travel up through function calls
+Catching vs Raising: The difference between handling exceptions and creating them

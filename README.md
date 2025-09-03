@@ -1,69 +1,162 @@
-Tech Pathway Notes
-This repository contains my notes and practice exercises as I work through the Tech Pathway program. It includes various Python projects, coding examples, and assignments from different weeks, focusing on skills like Python fundamentals, data cleaning, statistical foundations, and algorithmic thinking.
+<div align="center">
+  <img src="assets/columbia.png" alt="Columbia University - Justice Through Code" width="500">
+</div>
 
-Table of Contents
-Practice Examples
+<div align="center">
 
-Week One
+<img alt="Python" src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white">
+<img alt="Pandas" src="https://img.shields.io/badge/Pandas-Data-150458?logo=pandas&logoColor=white">
+<img alt="NumPy" src="https://img.shields.io/badge/NumPy-Data-013243?logo=numpy&logoColor=white">
+<img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-Visualization-11557c?logo=plotly&logoColor=white">
+<img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white">
+<img alt="SQLite" src="https://img.shields.io/badge/SQLite-DB-003B57?logo=sqlite&logoColor=white">
 
-Week Two
+</div>
 
-Week Three
+<h1 align="center">Tech Pathways Notes</h1>
 
-Week Four
+This repository contains my notes, practice exercises, and projects from the **Justice Through Code – Tech Pathways program**.  
+It documents my progress in Python fundamentals, algorithms, data cleaning, statistics, and project work leading up to AISE.
 
-Week Five
 
-Practice Examples
-This folder includes practice exercises for various Python topics, such as:
+## 🙋 About This Repo
+This repo is a record of my learning journey through the **Justice Through Code – Tech Pathways** program.  
+Each week built on the last: starting from Python basics, moving into data cleaning and visualization, and finishing with a capstone project that ties everything together.
 
-Functions
+---
 
-Dictionaries and Sets
+## 🌦️ Capstone Highlight
+My final project, **Volunteer Weather**, is a Python & Tkinter weather dashboard that includes:
+- Real-time weather data from the OpenWeather API  
+- Custom GUI with dark/light mode  
+- Interactive maps and radar  
+- Forecast charts and CSV export  
+- A machine learning model for Selmer, TN max temp predictions 
 
-List Manipulation
+<div align="center">
+  <img src="assets/volWeather.png" alt="Volunteer Weather App Screenshot" width="600">
+</div>
 
-Error Handling
+---
 
-Web API interaction
+## 📖 Table of Contents
+- [Practice Examples](#practice-examples)
+- [Weekly Folders](#weekly-folders)
+  - [Week One](#week-one)
+  - [Week Two](#week-two)
+  - [Week Three](#week-three)
+  - [Week Four](#week-four)
+  - [Week Five](#week-five)
+  - [Week Six](#week-six)
+  - [Week Seven](#week-seven)
+  - [Week Eight](#week-eight)
+  - [Week Nine](#week-nine)
+  - [Week Ten](#week-ten)
+  - [Week Eleven](#week-eleven)
+  - [Week Twelve](#week-twelve)
+  - [Week Thirteen](#week-thirteen)
+  - [Week Fourteen](#week-fourteen)
+  - [Week Fifteen](#week-fifteen)
+  - [Week Sixteen](#week-sixteen)
+  - [Week Seventeen](#week-seventeen)
+- [Capstone Playground](#capstone-playground)
 
-Week One
-w1d1functions.py: Introduction to basic functions in Python.
 
-w1d2Dictionaries_and_Sets.py: Working with dictionaries and sets in Python.
+---
 
-w1d3importing.py: Practice with importing modules and using libraries.
+## 📝 Practice Examples
+- `practiceExamplesFolder/` → drills for functions, loops, dictionaries, sets, error handling, and APIs  
+- `practice/` → small one-off scripts and warm-ups  
 
-w1d4exception_debugging.py: Handling exceptions and debugging Python code.
+---
 
-w1d5webAPI.py: Interacting with web APIs using Python.
+## 📂 Weekly Folders
+Each folder contains exercises, assignments, and notes from that week of the program.
 
-Week Two
-w2d1_nested_data.py: Working with nested data structures.
+### Week One
+- Functions, dictionaries, sets  
+- Importing modules  
+- Debugging and exceptions  
+- Web API basics  
 
-w2d2_OOP.py: Object-Oriented Programming concepts in Python.
+### Week Two
+- Nested data structures  
+- Intro to OOP  
+- API calls and JSON handling  
+- Project organization  
 
-w2d4_api.py: API interaction and data processing.
+### Week Three
+- Algorithmic thinking notes  
+- Sorting basics & efficient sorting  
 
-w2d5_project_organization.py: Organizing Python projects efficiently.
+### Week Four
+- Data cleaning exercises  
+- Data visualization with Matplotlib  
+- Weather data analysis  
 
-Week Three
-w3d1_algo_notes.txt: Notes on algorithmic thinking and design.
+### Week Five
+- Statistics and probability  
+- Pandas operations and in-class drills  
 
-w3d2_sorting_basics.py: Implementing basic sorting algorithms.
+### Week Six → Week Seventeen
+- Expanding into advanced Python, data science, and machine learning foundations (contents in each folder)  
 
-w3d3_efficient_sorting.py: Exploring more efficient sorting techniques.
+---
 
-Week Four
-w4d3_data_cleaning.py: Data cleaning exercises using Python.
+## 🛠️ Skills Practiced
+- Python fundamentals (functions, loops, data structures, error handling)  
+- Algorithmic thinking & sorting methods  
+- Data cleaning and preprocessing  
+- Pandas & NumPy for analysis  
+- Matplotlib for visualization  
+- Statistics & probability foundations  
+- SQLite for lightweight data storage  
+- Intro to machine learning with scikit-learn 
 
-w4d4_matplotlib.py: Data visualization using Matplotlib.
+---
 
-w4d5_weatherDataAnalysis.py: Analyzing weather data with Python.
+## 🔬 Capstone Playground
+`capstonePlayground/` → experimental scripts and prototypes for my **Volunteer Weather** capstone project.  
 
-Week Five
-w5d1_stats.py: Statistical analysis and working with data.
+---
 
-w5d2_pandas.py: Advanced operations in Pandas.
+## 🐼 Pandas Quick Reference
+`pandas_Quick_.../` → cheatsheets, example notebooks, and helper scripts for Pandas.  
 
-w5d2_inclass.py: In-class exercises for data manipulation.
+---
+
+## 🚀 Next Steps
+- Continue practicing **pandas + matplotlib** for data analysis  
+- Add more **algorithm notes and implementations**  
+- Begin **machine learning foundations** prep for AISE  
+
+---
+
+## ⚙️ Tech Stack
+- Python 3.x  
+- Pandas, NumPy, Matplotlib  
+- SQLite for lightweight storage  
+
+---
+
+## 📌 Notes
+Sensitive files (API keys, databases, raw datasets) are excluded via `.gitignore`.  
+
+---
+
+## 📜 License
+This repo is for educational purposes only.  
+
+## 🙏 Acknowledgments
+Special thanks to **Justice Through Code** instructors, mentors, and peers for their support.  
+
+## 🌐 Links
+- [Justice Through Code Program](https://justicethroughcode.org/)  
+- [Columbia University](https://www.columbia.edu/)  
+- [![Capstone Repo](https://img.shields.io/badge/Volunteer_Weather-Repo-FF8C00?logo=github)](https://github.com/Andreachurchwell/TPS_Capstone2025)
+  
+
+
+<div align="center">
+  <img src="assets/jtc.png" alt="JTC Logo" width="100">
+</div>

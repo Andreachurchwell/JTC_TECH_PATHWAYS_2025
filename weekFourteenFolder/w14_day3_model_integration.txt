@@ -1,0 +1,21 @@
+This class covered the end-to-end machine learning pipeline—from data preparation and model training to deployment in web applications—emphasizing practical implementation, evaluation, and production-ready systems with versioning and monitoring.
+
+Key Terms
+Data Pipeline: A series of data processing steps that transform raw data into a format suitable for machine learning 
+Feature Engineering: The process of creating new features from existing data to improve model performance 
+Model Training: The process of teaching a machine learning algorithm to make predictions using historical data 
+Cross-Validation: A technique for assessing how well a model will generalize to unseen data 
+Model Serialization: The process of converting a trained model into a format that can be saved and loaded later 
+Model Deployment: Making a trained model available for use in production applications 
+REST API: A web service that allows applications to communicate and exchange data over HTTP 
+Model Versioning: Tracking different versions of models to manage updates and rollbacks 
+Model Monitoring: Continuously tracking model performance in production to detect issues 
+Preprocessing Pipeline: A sequence of data transformation steps applied consistently to training and new data 
+Hyperparameters: Configuration settings for machine learning algorithms that are set before training 
+Overfitting: When a model performs well on training data but poorly on new, unseen data 
+Underfitting: When a model is too simple to capture the underlying patterns in the data 
+Production Environment: The live system where models serve real users and business operations 
+Data Leakage: When information from the future or target variable inadvertently influences model training 
+Model Artifacts: Saved components of a trained model including weights, parameters, and metadata 
+Inference: The process of using a trained model to make predictions on new data
+Model Registry: A centralized repository for storing and managing different versions of machine learning models

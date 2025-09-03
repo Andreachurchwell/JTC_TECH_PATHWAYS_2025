@@ -1,0 +1,13 @@
+This class focuses on creating clear and comprehensive documentation, including code docstrings, user guides, API references, README files, and installation instructions to support both technical and non-technical users.
+
+Key Terms
+Docstring: String literal that appears as the first statement in a module, function, class, or method definition
+README: Primary documentation file that introduces and explains a project
+API Documentation: Description of how to use and integrate with application programming interfaces
+User Guide: Documentation written for end-users explaining how to use the application
+Technical Documentation: Detailed documentation for developers and technical users
+Code Comments: Inline explanations within source code
+Changelog: Document listing notable changes for each version of a project
+FAQ: Frequently Asked Questions section addressing common user concerns
+Installation Guide: Step-by-step instructions for setting up the application
+Architecture Documentation: High-level description of system design and components

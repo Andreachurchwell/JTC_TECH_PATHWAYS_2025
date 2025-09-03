@@ -1,0 +1,13 @@
+This class focuses on developing comprehensive testing strategies including system, integration, user acceptance, performance, and cross-platform testing, along with bug tracking and basic test automation to ensure applications are production-ready.
+
+Key Terms
+System Testing: Testing the complete integrated application
+Integration Testing: Testing interactions between components
+User Acceptance Testing: Validation by end users that requirements are met
+Test Plan: Document describing testing approach and test cases
+Test Case: Specific scenario to test with expected results
+Bug/Defect: Deviation from expected behavior
+Regression Testing: Ensuring existing features still work after changes
+Edge Case: Unusual or extreme operating parameters
+Test Coverage: Percentage of code/features tested
+Smoke Testing: Basic tests to ensure major functions work

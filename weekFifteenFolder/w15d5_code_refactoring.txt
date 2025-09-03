@@ -1,0 +1,21 @@
+This class focuses on understanding the importance of code refactoring to improve maintainability by identifying code quality issues, applying techniques like the DRY principle, organizing code with functions and classes, and writing clean, readable code.
+
+Key Terms
+Refactoring: The process of improving code structure and readability without changing its functionality 
+Code Quality: A measure of how readable, maintainable, and efficient code is 
+DRY Principle: "Don't Repeat Yourself" - avoid duplicating code by creating reusable functions 
+Function Extraction: Taking repeated code and creating a separate function for it 
+Variable Naming: Choosing descriptive names that clearly indicate what a variable contains 
+Code Organization: Structuring code in a logical, easy-to-follow manner 
+Maintainability: How easy it is to modify, debug, and extend code over time 
+Readability: How easily other programmers (or yourself later) can understand the code 
+Code Duplication: When the same or similar code appears in multiple places 
+Function Decomposition: Breaking down large, complex functions into smaller, focused ones 
+Modularity: Organizing code into separate, independent components 
+Class: A blueprint for creating objects that group related data and functions together 
+Method: A function that belongs to a class 
+Encapsulation: Keeping related data and functions together in a class 
+Self-Documenting Code: Code that is so clear it explains itself without comments 
+Technical Debt: The cost of choosing quick solutions over clean code 
+Code Smell: Signs that code needs refactoring (long functions, repeated code, poor names)
+Separation of Concerns: Each function or class should have one clear responsibility

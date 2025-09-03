@@ -1,0 +1,13 @@
+This class focuses on preparing and delivering effective technical presentations by creating compelling narratives, managing live demos and Q&A sessions, handling challenges gracefully, and engaging diverse audiences confidently.
+
+Key Terms
+Demo Script: Planned sequence of actions for demonstration
+Value Proposition: Clear statement of application benefits
+User Story: Narrative showing how someone uses your application
+Backup Materials: Screenshots/videos for demo failures
+Call to Action: What you want audience to do after presentation
+Technical Debt: Known limitations to acknowledge
+Elevator Pitch: 30-second project summary
+Pain Points: Problems your application solves
+Demo Environment: Prepared system for demonstrations
+Presentation Flow: Logical sequence of presentation elements

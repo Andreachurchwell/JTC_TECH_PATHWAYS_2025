@@ -1,0 +1,13 @@
+This class focuses on packaging and distributing Python applications by creating standalone executables, managing dependencies, building installers for different platforms, and automating the build process using tools like setuptools and PyInstaller.
+
+Key Terms
+Package: A collection of Python modules distributed together
+Distribution: A packaged version of software ready for installation
+Executable: A file that can be run directly without Python interpreter
+Bundling: Process of collecting all dependencies together
+Freezing: Converting Python scripts into standalone executables
+Spec File: PyInstaller configuration file defining build parameters
+Hook: PyInstaller extension for handling special modules
+Wheel: Built distribution format for Python packages
+Setup.py: Python file defining package metadata and build configuration
+Manifest: File listing all components included in a distribution

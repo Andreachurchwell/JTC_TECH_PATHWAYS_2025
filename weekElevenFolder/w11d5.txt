@@ -1,0 +1,16 @@
+In this class, fellows explore different types of testing for GUI applications, learn to write testable code, create test cases for their weather dashboard features, plan for edge cases, and develop a comprehensive test plan using basic unit testing strategies.
+
+Key Terms
+Unit Test: Tests individual components in isolation
+Integration Test: Tests how components work together
+System Test: Tests the complete application end-to-end
+Test Case: A specific scenario to test with expected results
+Test Coverage: The percentage of code executed by tests
+Edge Case: Unusual or extreme inputs that might cause issues
+Mock Object: A simulated object that mimics real behavior for testing
+Assertion: A statement that checks if a condition is true
+Test Fixture: The preparation needed to run tests (setup/teardown)
+Regression Test: Tests that ensure new changes don't break existing functionality
+Black Box Testing: Testing without knowledge of internal implementation
+White Box Testing: Testing with knowledge of internal structure
+Test Plan: Document describing what and how to test

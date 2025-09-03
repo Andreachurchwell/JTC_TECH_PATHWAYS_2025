@@ -1,0 +1,18 @@
+This class focuses on the importance of performance optimization in Python, teaching how to identify common bottlenecks, apply small but impactful improvements, choose efficient data structures, and measure code performance using basic timing techniques.
+
+Key Terms
+Performance Optimization: The process of making code run faster or use less memory 
+Seed Improvements: Small, easy-to-implement changes that provide significant performance gains 
+Bottleneck: The slowest part of a program that limits overall performance 
+List Comprehension: A concise way to create lists that's typically faster than loops 
+Time Complexity: How the runtime of an algorithm changes with input size 
+Lookup Time: How long it takes to find an item in a data structure 
+String Concatenation: Combining multiple strings into one 
+Pre-allocation: Setting the size of a data structure before filling it 
+Caching: Storing results to avoid recalculating them 
+Profiling: Measuring which parts of code are slowest 
+Big O Notation: Mathematical way to describe algorithm efficiency (mentioned but not covered in detail) 
+Memory Efficiency: Using less RAM while running a program 
+Generator: A memory-efficient way to create sequences on-demand 
+In-place Operations: Modifying data structures without creating copies
+Algorithmic Efficiency: Choosing the right approach to solve a problem efficiently

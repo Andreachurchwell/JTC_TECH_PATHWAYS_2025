@@ -1,0 +1,22 @@
+In this class, fellows design a modular architecture for their weather dashboard application, separate the GUI, logic, and data layers, plan feature integration, create system diagrams, implement a basic architectural skeleton, and explore common patterns for desktop applications.
+
+Key Terms
+System Architecture: The high-level structure of a software system defining components and their relationships
+
+Module: A self-contained unit of code that can be imported and used by other parts of the system
+
+Component: A modular part of a system that encapsulates specific functionality
+
+Separation of Concerns: Design principle where each component handles a distinct aspect of functionality
+
+Model-View-Controller (MVC): Architectural pattern separating data (Model), presentation (View), and logic (Controller)
+
+Coupling: The degree of interdependence between software modules
+
+Cohesion: How closely related the responsibilities of a single module are
+
+Interface: The boundary between components defining how they communicate
+
+Data Flow: The path that data takes through the system components
+
+Dependency: When one component relies on another to function

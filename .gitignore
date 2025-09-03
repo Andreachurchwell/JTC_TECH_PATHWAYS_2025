@@ -2,4 +2,9 @@
 .env
 venv/
 **/venv/
+.env
+*.csv
+*.db
+__pycache__/
+pandas_Quick_guide/
 

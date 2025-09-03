@@ -1,0 +1,15 @@
+In this class, fellows create a detailed project plan by breaking down features into manageable tasks, identifying dependencies and critical paths, estimating time requirements, building in buffers for testing, and developing strategies to manage risks and track progress
+
+Key Terms
+Milestone: A significant point marking the completion of a major phase or deliverable
+Task Decomposition: Breaking down large work items into smaller, manageable tasks
+Critical Path: The sequence of dependent tasks that determines project duration
+Dependency: When one task must be completed before another can begin
+Buffer Time: Extra time allocated for unexpected issues or delays
+Work Breakdown Structure (WBS): Hierarchical decomposition of project work
+Gantt Chart: Visual timeline showing project tasks and their relationships
+Risk Assessment: Identifying potential problems that could impact the project
+Contingency Plan: Backup strategies for handling identified risks
+Sprint: A fixed time period for completing a set of tasks
+Deliverable: A tangible output or result from project work
+Velocity: The amount of work completed in a given time period

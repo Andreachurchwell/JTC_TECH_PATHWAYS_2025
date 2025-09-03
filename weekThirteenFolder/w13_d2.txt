@@ -1,0 +1,18 @@
+This class focuses on implementing location-based functionality in weather applications by using geocoding APIs, building user-friendly location search and validation features, and integrating GPS coordinates for accurate weather data retrieval.
+
+Key Terms
+Geocoding: The process of converting addresses or place names into geographic coordinates
+Reverse Geocoding: Converting geographic coordinates back into human-readable addresses
+Latitude: The geographic coordinate that specifies north-south position on Earth
+Longitude: The geographic coordinate that specifies east-west position on Earth
+API Endpoint: A specific URL where an API can be accessed for particular functionality
+Location Validation: Verifying that user-provided location data is accurate and usable
+Autocomplete: A feature that provides suggestions as users type location names
+Geocoding Service: An online service that provides geocoding functionality via API
+Location Search: The process of finding and selecting geographic locations by name
+Coordinate System: A system for uniquely determining position on Earth's surface
+Location Cache: Storing previously looked-up location data to improve performance
+Place Disambiguation: Distinguishing between locations with similar names
+Location History: Keeping track of previously searched or selected locations
+Geographic Boundaries: Limits or extents of geographic areas for location searches
+Location Preferences: User-selected default locations and search settings
